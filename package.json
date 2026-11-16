@@ -1,0 +1,19 @@
+{
+  "name": "taskwork",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TaskWork (taskwork.in) - typing task platform",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test --test-concurrency=1 test/",
+    "make-admin": "node scripts/make-admin.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "helmet": "^8.1.0"
+  }
+}
